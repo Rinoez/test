@@ -64,7 +64,7 @@ public class UpgradeButton : MonoBehaviour
                 upgradeCost *= 2;
                 upgradeCount++;
 
-                if (upgradeCount == 4)
+                if (upgradeCount == 400)
                 {
                     clicker.ChangeCoinModel();
                 }
